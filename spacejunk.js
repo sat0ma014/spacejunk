@@ -36,7 +36,8 @@ if (process.env.SPACEJUNK_LOCAL == "true") {
 var dropbox = new Dropbox.Client({
   key: (process.env.DROPBOX_KEY || config.dropbox.key),
   secret: (process.env.DROPBOX_SECRET || config.dropbox.secret),
-  token: (process.env.DROPBOX_TOKEN || config.dropbox.token)
+  token: (process.env.DROPBOX_TOKEN || config.dropbox.token),
+  accessToken: (process.env.ACCESS_TOKEN || config.dropbox.accesstoken
 });
 
 // Allow these functions to be called synchronously (only used on boot!)
