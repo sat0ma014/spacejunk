@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "spacejunk": "dmfrancisco/spacejunk#core-package"
+    "spacejunk": "sat0ma014/spacejunk#core-package"
   },
   "scripts": {
     "start": "spacejunk --server $PORT '' '' '' '' '' 0.0.0.0",
